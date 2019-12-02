@@ -5,7 +5,7 @@ generatedKey = Fernet.generate_key()
 print(generatedKey)
 
 # Saving a key to a file on desktop so that message can be decrypted later on:
-file = open('UseAsKey.keyFile', 'wb')
+file = open('UseAsKey.keyFile', 'wb')  # Writes bytes in a file of dot keyFile Ext.
 file.write(generatedKey)  # Key is type bytes
 file.close()
 
