@@ -9,7 +9,7 @@ file = open('UseAsKey.keyFile', 'wb')
 file.write(generatedKey)  # Key is type bytes
 file.close()
 
-# Getting input from the User:
+# Getting input from the User to encrypt:
 message = input("Give me a damn Input that I can encrypt")
 
 # Encrypting the message:
